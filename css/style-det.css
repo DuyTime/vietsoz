@@ -1,0 +1,426 @@
+body{
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight:400;
+}
+#header{
+    background: #fff;
+    margin-bottom: 30px;
+}
+/* style header */
+#logo{
+    display: block;
+    padding:16px 10px 16px 0px ;
+}
+#logo img,.post-thumb img,.post-ads img{
+    display: block;
+}
+/* style logo */
+ul.main-menu{
+    padding: 0px 23px 0px 47px;
+}
+ul.main-menu li{
+    float: left;
+}
+ul.main-menu li a{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding:17.5px 20px;
+    display: block;
+}
+
+/* style search */
+.search-box{
+    position: relative;
+    margin: 12.5px 0px 12.5px 5px;
+}
+.search-box input{
+    width: 180px;
+    border: 1px solid #e1e1e1;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 33px;
+    color: #bfbfbf;
+    border-radius: 5px;
+    padding: 0px 35px 0px 16px;
+}
+.submit-search{
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 10px;
+    right: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a3a3a3;
+
+}
+
+/* end header */
+#content{
+    width: 834px;
+    padding-right: 38px;
+    border-right: 1px solid #f5f5f5;
+}
+/* end content indext */
+#cover{
+    width: 795px;
+}
+#cover .post-cover,.widget-featura-cat .widget-content .post-featura{
+    width: 488px;
+    padding-right: 15px;
+}
+#cover .post-cover .post-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    display: block;
+    padding:30px 0px 23px 0px;
+    color:#000000 ;
+}
+.post-cover .post-desc{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    display: block;
+    padding-bottom: 5px;
+    color: #3f3f3f;
+}
+ul.main-menu li:hover a,.list-post .post-title:hover{
+    color: #008643;
+    transition: all 0.15s;
+}
+#cover .post-cover .post-title:hover,.widget-content .post-feature .post-title:hover{
+    color: #008643;
+    transition: all 0.15s;
+}
+.content .list-category li:hover a, .news .list-news li:hover a{
+    color: #c4e4d4;
+}
+/* end post-cover */
+#cover .list-post-cover,.widget-featura-cat .widget-content .list-post-featura{
+    width: 307px;
+    padding-left: 15px;
+}
+/* style css chung li cach duoi */
+.list-post li{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* style chung anh padding left */
+.list-post .post-thumb{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+/* style tieu de */
+.list-post .post-title{
+    line-height: 20px;
+    color:#000000;
+    font-size: 14px;
+    font-weight: 500;
+    width: 151px;
+    float: left;
+    display: block;
+} 
+.widget-featura-cat .widget-title{
+    margin-bottom: 26px;
+    border-bottom:1px solid #01a050 ;
+    margin-top: 40px;
+}
+.widget-featura-cat .widget-title a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+    line-height: 22px;
+    background: #01a050;
+    display: inline-block;
+    padding: 13px 20px 12px 20px;  
+}
+.widget-featura-cat .widget-title a:hover{
+    color:#000000 ;
+}
+.widget-featura-cat .widget-content .post-featura .post-title{
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 17px;
+    display: block;
+}
+.widget-featura-cat .widget-content .post-featura .post-desc{
+    font-size: 14px;
+    line-height: 24px;
+    color: #3f3f3f;
+    font-weight: 400;
+}
+/* end content indext */
+/* style category indext */
+#breadcrums{
+    background: #f3f3f3;
+    border-top: 1px solid #d8d8d8 ;
+    
+}
+#breadcrums ul li {
+    float: left;
+    height: 30px;
+}
+#breadcrums ul li#index a{
+    color: #000;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+#breadcrums ul li#cat a{
+    position: relative;
+    font-size: 11px;
+    color: #565656;
+    font-weight: 400;
+    padding: 9px 24px;
+
+}
+#breadcrums ul li#cat a:after{
+    font-family: FontAwesome;
+    content: "\f105";
+    position: absolute;
+    display: block;
+    font-size: 11px;
+    padding: 3px 9px;
+    color: #6f6f6f;
+    top: 1px;
+}
+/* end breadrums */
+
+/* style top news */
+#content .post-cover-detail .post-title{
+    font-size: 26px;
+    line-height: 33px;
+    color: #1f1f1f;
+    font-weight:500;
+    padding-bottom: 30px;
+}
+#content .post-cover-detail .post-thumb{
+    margin-bottom: 45px;
+}
+#wp-content #content .post-cover-detail .post-desc p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 20px;
+}
+#wp-content #content .post-cover-detail .post-desc p.admin{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 15px;
+}
+#wp-slider .owl-carousel .post-title:hover{
+    color: #008643;
+    transition: all 0.2s;
+}
+#wp-content #content .widget-slider .post-title{
+    font-size: 21px;
+    line-height: 20px;
+    font-weight: 500;
+    color:#1f1f1f ;
+    margin-top: 43px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #01a050;
+}
+#wp-slider{
+    margin-top: 25px;
+}
+#wp-slider .owl-carousel .post-title{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #1f1f1f;
+    padding-top: 10px;
+    display: block;
+}
+#wp-slider .owl-carousel .owl-nav{
+    display: none;
+}
+#wp-slider .owl-carousel .owl-dots{
+    margin-top: 10px;
+}
+/* style slider */
+
+
+
+
+
+/* style paging */
+.paging ul li,.paging ul p{
+   display: inline;
+}
+.paging ul li {
+    border: 1px solid #dedede;
+    padding: 5px 0px;
+    margin-right: 8px;
+}
+.paging ul li.active a,.paging ul li:hover a{
+    background: #01a050;
+    color: #fff;
+    transition: all 0.25s;
+}
+.paging ul li a{
+    font-size: 13px;
+    line-height: 30px;
+    color: #0b0b0b;
+    font-weight: 500;
+    padding: 8px 12px;
+    
+}
+.paging .fa{
+    font-family: FontAwesome;
+    content: "\f017";
+    font-size: 15px;
+    line-height: 30px;
+    color: #0b0b0b;
+    font-weight: 400;
+}
+
+
+
+/* end content */
+#sidebar{
+    width: 336px;
+    padding-left: 30px;
+}
+#sidebar .post-ads{
+    display: block;
+    margin-bottom: 48px;
+}
+.widget-lead .widget-title{
+    border-bottom: 1px solid #01a050 ;
+}
+.widget-lead .widget-title a{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 20px;
+}
+.widget-lead .widget-content{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* end wp-content */
+
+
+#footer{
+    background: #01a050;
+    margin-top: 40px ;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#footer .widget-title{
+    padding-bottom: 28px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+}
+.widget-content,.list-news li a{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.content .list-category li a{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+}
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.content .list-category li a,.news .list-news li a{
+    position: relative;
+    padding-left: 13px;
+    display: block;
+}
+#footer .category .content .list-category li,.list-news li,#footer .widget-content p{
+ padding-bottom: 20px;
+}
+.about{
+    width: 327px;
+    padding-right: 53px;
+
+}
+.category{
+    width: 214px;
+    padding-right: 53px;
+}
+.news{
+    width: 352px;
+    padding-right: 44px;
+
+}
+.pages{
+    max-width: 278px;
+}
+.content .list-category li a:before,.news .list-news li a:before{
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f105";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+    line-height: 21px;
+ 
+}
+.widget-content p.email,.widget-content p.tel{
+    font-size: 15px;
+    line-height: 21px;
+    position: relative;
+    padding-left: 25px;
+}
+.widget-content p.about span{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.widget-content p.email:before{
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: "\f003";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+}
+.widget-content p.tel:before{
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: "\f095";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+} 
+#copyright p{
+   font-size: 14px;
+   font-weight: 400;
+   color: #454545;
+   display: block;
+   padding: 15px 0px;
+}

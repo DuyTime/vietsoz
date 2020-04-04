@@ -1,0 +1,319 @@
+body{
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight:400;
+}
+/* style header */
+#header{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8 ;
+    margin-bottom: 30px;
+}
+#logo{
+    display: block;
+    padding:16px 10px 16px 0px ;
+}
+#logo img{
+    display: block;
+}
+ul.main-menu{
+    padding: 0px 23px 0px 47px;
+}
+ul.main-menu li{
+    float: left;
+}
+ul.main-menu li a{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding:17.5px 20px;
+    display: block;
+}
+/* style search */
+.search-box{
+    position: relative;
+    margin: 12.5px 0px 12.5px 5px;
+}
+.search-box input{
+    width: 180px;
+    border: 1px solid #e1e1e1;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 33px;
+    color: #bfbfbf;
+    border-radius: 5px;
+    padding: 0px 35px 0px 16px;
+}
+.submit-search{
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 7px;
+    right: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #a3a3a3;
+
+}
+
+/* end header */
+#content{
+    width: 834px;
+    padding-right: 38px;
+    border-right: 1px solid #f5f5f5;
+}
+/* end content indext */
+#cover{
+    width: 795px;
+    margin-bottom: 40px;
+}
+/* style left doc chung width+ padding anh =block */
+#cover .post-cover,.feature-cat .widget-content .post-feature{
+    width: 488px;
+    padding-right: 15px;
+}
+/* end */
+.post-cover .post-thumb,.post-thumb img, .post-ads img{ 
+    display: block;
+}
+/* style cover */
+#cover .post-cover .post-title{
+    font-size: 26px;
+    line-height: 33px;
+    font-weight:500;
+    display: block;
+    padding:30px 0px 23px 0px;
+    color:#000000 ;
+}
+.post-cover .post-desc{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    display: block;
+    color: #3f3f3f;
+}
+ul.main-menu li:hover a,.list-post .post-title:hover{
+    color: #008643;
+    transition: all 0.15s;
+}
+#cover .post-cover .post-title:hover,.widget-content .post-feature .post-title:hover{
+    color: #008643;
+    transition: all 0.15s;
+}
+.content .list-category li:hover a, .news .list-news li:hover a{
+    color: #c4e4d4;
+}
+/* end post-cover */
+/* style right doc chung width+ padding */
+#cover .list-post-cover,.feature-cat .widget-content .list-post-feature{
+    width: 307px;
+    padding-left: 15px;
+}
+/* style css chung li cach duoi */
+.list-post li{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* style chung anh padding left */
+.list-post .post-thumb{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+/* style tieu de */
+.list-post .post-title{
+    line-height: 20px;
+    color:#000000;
+    font-size: 14px;
+    font-weight: 500;
+    width: 151px;
+    float: left;
+    display: block;
+} 
+/* end title */
+/* style title feature */
+.feature-cat .widget-title{
+    margin-bottom: 26px;
+    border-bottom:1px solid #01a050 ;
+}
+.feature-cat .widget-title a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+    line-height: 22px;
+    background: #01a050;
+    display: inline-block;
+    padding: 13px 20px 12px 20px;  
+}
+/* end style title feature */
+.widget-content .post-feature .post-title{
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 17px;
+    display: block;
+}
+.widget-content .post-feature .post-thumb{
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+.widget-content .post-feature .post-desc{
+    font-size: 14px;
+    line-height: 24px;
+    color: #3f3f3f;
+    font-weight: 400;
+}
+/* end content indext */
+.list-post-featura ul.list-left {
+    width: 426px;
+}
+.feature-cat{
+    margin-bottom: 40px;
+}
+/* style content */
+
+
+
+
+
+/* end content */
+#sidebar{
+    width: 336px;
+    padding-left: 30px;
+}
+#sidebar .post-ads{
+    display: block;
+    margin-bottom: 48px;
+}
+.widget-lead .widget-title{
+
+    border-bottom: 1px solid #01a050 ;
+}
+.widget-lead .widget-title a{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 20px;
+}
+.widget-lead .widget-content{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* end wp-content */
+
+
+#footer{
+    background: #01a050;
+    margin-top: 40px ;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#footer .widget-title{
+    padding-bottom: 28px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+}
+.widget-content,.list-news li a{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.content .list-category li a{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+}
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.content .list-category li a,.news .list-news li a{
+    position: relative;
+    padding-left: 13px;
+    display: block;
+}
+#footer .category .content .list-category li,.list-news li,#footer .widget-content p{
+ padding-bottom: 20px;
+}
+.about{
+    width: 327px;
+    padding-right: 53px;
+
+}
+.category{
+    width: 214px;
+    padding-right: 53px;
+}
+.news{
+    width: 352px;
+    padding-right: 44px;
+
+}
+.pages{
+    max-width: 278px;
+}
+.content .list-category li a:before,.news .list-news li a:before{
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f105";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+    line-height: 21px;
+ 
+}
+.widget-content p.email,.widget-content p.tel{
+    font-size: 15px;
+    line-height: 21px;
+    position: relative;
+    padding-left: 25px;
+}
+.widget-content p.about span{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.widget-content p.email:before{
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: "\f003";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+}
+.widget-content p.tel:before{
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: "\f095";
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    display: block;
+} 
+#copyright p{
+   font-size: 14px;
+   font-weight: 400;
+   color: #454545;
+   display: block;
+   padding: 15px 0px;
+}
